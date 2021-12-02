@@ -28,9 +28,7 @@ const AppContainer = () => {
     const totalPopulation = () => {
         let total = 0
         for (let i in countries){
-            console.log(`name: ${countries[i].name.common}, ${countries[i].population}`)
             total += countries[i].population
-            console.log(total)
         }
         return total
     }

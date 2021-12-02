@@ -1,7 +1,9 @@
 const Country = ({country}) => {
     if (!country) return
     return (
-        <li>{country.name.official}</li>
+        <li className="country-item">
+            {country.name.official}
+        </li>
     )
 }
 
